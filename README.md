@@ -16,17 +16,6 @@ This demo uses:
 
 ## Running the demo
 
-To run the demo follow these steps:
-
-1. Head to the [CometChat dashboard](https://app.cometchat.com/) (you'll need to create a free account if you haven't already)
-2. From the dashboard, create a new app called "lara-market-place" or use any name you prefer
-3. Click **API & Auth Keys** on the left-hand-side and note the automatically-generated REST API Key and the application ID as well
-4. Download the repository [here](https://github.com/yemiwebby/lara-market-place/archive/master.zip) or by running `git clone https://github.com/yemiwebby/lara-market-place.git`
-5. Run `composer install` to install all the dependencies for the backend (Laravel)
-6. Run `npm install` to install all the dependencies for the frontend (Vuejs)
-7. Create a `.env` file with the root folder of the project, then copy the content `.env.example` and paste it in the newly created file.
-8. Next, locate the following variables within the `.env` file and replace the placeholders with the appropriate credentials:
-
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
